@@ -1,0 +1,206 @@
+<div class="stats">
+  <div class="data text-uppercase">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <div>
+            <i class="fa fa-gift rounded-circle" aria-hidden="true"></i>
+          </div>
+
+          <div class="h5 pt-2 ">completed projects</div>
+          <p class=" lead counter-value">2164</p>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <i class="fa fa-suitcase rounded-circle" aria-hidden="true"></i>
+          </div>
+          <div class="h5 pt-2">material use</div>
+          <p class=" lead counter-value">10509</p>
+        </div>
+        <div class="col-lg-3">
+          <div><i class="fa fa-cog rounded-circle" aria-hidden="true"></i></div>
+
+          <div class="h5 pt-2">work people</div>
+          <p class=" lead counter-value">7860</p>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <i class="fa fa-users rounded-circle" aria-hidden="true"></i>
+          </div>
+
+          <div class="h5 pt-2">happy clients</div>
+          <p class=" lead counter-value">1982</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="offers text-uppercase">
+  <div class=" text-center m-5">
+    <h2 class="dispaly-4 p-4">
+      What we are <span class="mainColor">offering</span>
+    </h2>
+    <p class="mb-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate,
+      accusamus sapiente facere distinctio rem.
+    </p>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="row text-uppercase">
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-cog offers-icon large rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">architectures</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-phone offers-icon rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">Best support</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-briefcase offers-icon rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">self transport</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-briefcase offers-icon rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">repair services</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-briefcase offers-icon rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">patting and tiling</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-start flex-column ">
+              <div class="p-3 row">
+                <div class="col-lg-3">
+                  <i
+                    class="fa fa-briefcase offers-icon rounded-circle"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-lg-8">
+                  <div class="h5">professional</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- **Works Gallery** -->
+<div id="gallery">
+  <div class="text-center text-uppercase">
+    <h2 class="dispaly-4 p-4">
+      <span class="mainColor">View</span> our Projects gallery
+    </h2>
+    <p class="mb-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate,
+      accusamus sapiente facere distinctio rem.
+    </p>
+  </div>
+  <div class="links mt-5">
+    <a class="button active" data-filter="all" [routerLink]="['/']"
+      >All Works
+    </a>
+    <a class="button " data-filter="architectures" [routerLink]="['/']"
+      >architectures</a
+    >
+    <a class="button " data-filter="constructions" [routerLink]="['/']"
+      >constructions
+    </a>
+    <a class="button" data-filter="interior" [routerLink]="['/']">interior</a>
+  </div>
+  <div class="imageContainer mt-5">
+    <div class="filter interior ">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/1.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="filter architectures ">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/2.jpg" alt="" />
+      </a>
+    </div>
+    <div class="filter architectures ">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/4.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="filter constructions">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/3.jpg" alt="" />
+      </a>
+    </div>
+    <div class="filter constructions ">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/1.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="filter interior">
+      <a [routerLink]="['/']">
+        <img src="./assets/images/2.jpg" alt="" />
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+
+@import'../../../styles.scss';
+
+#features{
+
+	.features-heading {text-align: center;
+		padding: 50px 0 ;
+	}
+	margin-top: 40px;
+	padding: 30px;
+	.features-card {
+		background-color:  $secondary-color;
+		color: #fff;
+		margin-right: 20px;
+		height: auto;
+		padding-top: 70px;
+
+	.features-icon {
+		font-size: 40px;
+		color: $main-color;
+		background-color: #fff;
+		padding: 13px;
+
+
+		}
+
+	}
+	.features-card:hover {
+		background-color: #fff;
+		border: 1px solid $main-color;
+			color :$secondary-color; 
+		.features-icon {
+			color: #fff;
+			background-color: $main-color;
+
+
+
+		}
+
+	}
+		
+
+
+}
+.services {
+	text-transform: uppercase;
+	margin: 50px 0 ;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;	
+	@media (max-width: 575.98px) { 
+		flex-direction: column;
+		width: 100%;
+		img {
+			width: 100%;
+			margin-bottom: 10px;
+
+		}
+
+	}
+	.services-icon {
+		font-size: 30px;
+		color:#fff ;
+		background-color: $secondary-color;
+		padding: 13px;
+
+
+
+		}
+}
